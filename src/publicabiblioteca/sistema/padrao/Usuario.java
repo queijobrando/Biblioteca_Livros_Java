@@ -48,7 +48,7 @@ public class Usuario {
                     scan.nextLine();
                     System.out.print("Escreva a sinopse do livro: ");
                     novoLivro.setSinopseLivro(scan.nextLine());
-                    System.out.println("\n"+novoLivro.getNomeLivro()+"foi adicionado a lista!");
+                    System.out.println("\n"+novoLivro.getNomeLivro()+" foi adicionado a lista!");
 
                     listaDeLivros.add(novoLivro);
                 } else if (escolha == 2) {

@@ -7,9 +7,9 @@ public class Livro {
     private String nomeAutor;
     private String sobreAutor;
 
-    //construtor
+    //construtor - exige que tenha um nome
     public Livro(String criarNovoLivro) {
-        this.setNomeLivro(criarNovoLivro);
+        this.nomeLivro = criarNovoLivro;
     }
 
     public String getNomeLivro(){
